@@ -1,4 +1,6 @@
-public class CombustionEngine implements IEngine{
+package vehicle;
+
+public class CombustionEngine implements IEngine {
 
     private int horsePower;
     private String lastOilChange;

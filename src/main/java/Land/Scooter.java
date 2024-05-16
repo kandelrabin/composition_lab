@@ -1,4 +1,8 @@
-public class Scooter extends Vehicle implements ILandVehicle{
+package Land;
+
+import vehicle.Vehicle;
+
+public class Scooter extends Vehicle implements ILandVehicle {
 
     private boolean hasBreaks;
     private int numberOfWheels;

@@ -1,3 +1,5 @@
+package Land;
+
 public interface ILandVehicle {
 
     int getNumberOfWheels();

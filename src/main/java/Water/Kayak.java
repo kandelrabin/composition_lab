@@ -1,3 +1,7 @@
+package Water;
+
+import vehicle.Vehicle;
+
 public class Kayak extends Vehicle implements IWaterVehicle {
 
     private int numberOfPaddles;

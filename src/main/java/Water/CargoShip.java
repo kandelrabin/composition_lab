@@ -1,3 +1,8 @@
+package Water;
+
+import vehicle.IEngine;
+import vehicle.Vehicle;
+
 public class CargoShip extends Vehicle implements IWaterVehicle, IEngine{
 
     private int numberOfContainers;

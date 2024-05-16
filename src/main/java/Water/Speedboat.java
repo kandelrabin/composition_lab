@@ -1,4 +1,9 @@
-public class Speedboat extends Vehicle implements IWaterVehicle, IEngine{
+package Water;
+
+import vehicle.IEngine;
+import vehicle.Vehicle;
+
+public class Speedboat extends Vehicle implements IWaterVehicle, IEngine {
 
     private boolean needsCrew;
     private String hullType;

@@ -1,4 +1,6 @@
-public class ElectricEngine implements IEngine{
+package vehicle;
+
+public class ElectricEngine implements IEngine {
 
     private int horsePower;
     private int batteryLevel;

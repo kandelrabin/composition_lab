@@ -1,3 +1,5 @@
+package vehicle;
+
 public interface IEngine {
 
     int getHorsePower();

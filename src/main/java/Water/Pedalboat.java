@@ -1,3 +1,7 @@
+package Water;
+
+import vehicle.Vehicle;
+
 public class Pedalboat extends Vehicle implements IWaterVehicle {
 
 

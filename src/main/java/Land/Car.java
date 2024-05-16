@@ -1,4 +1,9 @@
-public class Car extends Vehicle implements ILandVehicle, IEngine{
+package Land;
+
+import vehicle.IEngine;
+import vehicle.Vehicle;
+
+public class Car extends Vehicle implements ILandVehicle, IEngine {
 
     private String type;
     private int numberOfWheels;

@@ -1,7 +1,12 @@
+package Land;
+
+import vehicle.IEngine;
+import vehicle.Vehicle;
+
 public class Bus extends Vehicle implements ILandVehicle, IEngine {
 
-    // the bus is a Land Vehicle - no property
-    // the bus has an Engine - make it a property - so add IEngine to make it Enginable
+    // the bus is a Land vehicle.Vehicle - no property
+    // the bus has an Engine - make it a property - so add vehicle.IEngine to make it Enginable
     private boolean isDoubleDecker;
     private int numberOfWheels;
     private IEngine engine;

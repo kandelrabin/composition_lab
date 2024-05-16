@@ -1,4 +1,8 @@
-public class Bicycle extends Vehicle implements ILandVehicle{
+package Land;
+
+import vehicle.Vehicle;
+
+public class Bicycle extends Vehicle implements ILandVehicle {
 
     private int frameSize;
     private int numberOfWheels;
